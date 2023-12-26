@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Dear Caela</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Miniver&display=swap" rel="stylesheet">
+    
+</head>
+
+<style>
+.title{
+    display: flex;
+    color: #FFF;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    font-family: Miniver;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+
+.rewindIcon{
+    display: flex;
+    width: 180px;
+    animation: fadeIn 2s ease-in;
+    animation: breathe 2000ms infinite forwards;
+}
+    @keyframes breathe {
+        50%{
+            transform: scaleX(1.1) scaleY(1.1);
+        }
+        100%{
+            transform: scaleX(1) scaleY(1);
+        }
+    }
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+.content1{
+    display: flex;
+    margin-top: 10rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Miniver;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+</style>
+<body>
+    <div class="contentBackground">
+        <div class="title">Merry Christmas!</div>
+        <div class="rewind">
+            <a href="next1.html"><img src="loveletter.png" alt="Start_Icon" class="rewindIcon"></a>
+        </div>
+        <div class="content1">December 25, 2023<br style="margin-top: 0.5rem;">There would be no Christmas without you!<br style="margin-bottom: 2.5rem;"></div>
+    </div>
+</body>
+</html>
