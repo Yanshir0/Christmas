@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.contentBackground{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90rem;
+    height: auto;    
+    background-image: url('Background.png');
+    border: 10px solid #FFFF;
+}
+
+.title{
+    display: flex;
+    color: #FFF;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    font-family: Miniver;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
